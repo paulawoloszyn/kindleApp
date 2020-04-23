@@ -1,0 +1,356 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background: url(../img/bg-pattern.png), #7b4397;
+  background: url(../img/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
+  position: relative;
+  width: 100%;
+  min-height: 700px; }
+  header .navbar {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 200;
+    padding: 10px; }
+    header .navbar .navbar-brand {
+      margin-left: 80px;
+      display: inline-block;
+      padding: 20px;
+      font-size: 17px;
+      transition: all 0.35s;
+      text-decoration: none;
+      color: #fdcc52;
+      letter-spacing: 3px; }
+      header .navbar .navbar-brand:hover {
+        color: #fff; }
+  header .bg-custom1 {
+    background-color: transparent;
+    border-color: transparent;
+    transition: all 1s ease;
+    width: 100%;
+    height: 56px; }
+  header .bg-custom2 {
+    background: #fff;
+    transition: all 1s ease;
+    width: 100%;
+    height: 56px; }
+    header .bg-custom2 .navbar-brand {
+      margin-left: 80px;
+      color: #000; }
+      header .bg-custom2 .navbar-brand:hover {
+        color: #fdcc52; }
+        header .bg-custom2 .navbar-brand
+    header .bg-custom2 a {
+      color: #000; }
+      header .bg-custom2 a:hover {
+        color: #fdcc52; }
+  header ul {
+    margin-right: 80px; }
+    header ul li a {
+      display: inline-block;
+      letter-spacing: 2px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 12px; }
+      header ul li a:hover {
+        color: #fff; }
+  header .portada-container {
+    width: 100%;
+    height: 80%; }
+    header .portada-container .contenido-portada {
+      margin-top: 150px;
+      text-align: left;
+      max-width: 500px; }
+      header .portada-container .contenido-portada h2 {
+        font-family: "Catamaran", sans-serif;
+        font-size: 50px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        color: white; }
+      header .portada-container .contenido-portada .btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        border-radius: 50px;
+        vertical-align: center;
+        transition: background 0.4s ease; }
+        header .portada-container .contenido-portada .btn:hover {
+          background: #fdcc52;
+          color: #fff; }
+        header .portada-container .contenido-portada .btn a {
+          text-decoration: none;
+          display: inline-block;
+          padding: 8px 8px;
+          text-decoration: none;
+          letter-spacing: 2px;
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 13px;
+          margin: 0 50px; }
+    header .portada-container .kindle-container {
+      margin-top: 150px;
+      text-align: center;
+      width: 100%;
+      height: 100%; }
+
+.about {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(#fdcc52, #fdc539);
+  padding: 150px 0; }
+  .about .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  .about h1 {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 200;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 1px; }
+  .about .btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    vertical-align: center;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+    margin-right: 20px; }
+    .about .btn:hover {
+      background: #7b4397;
+      color: #fff; }
+    .about .btn a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 3px 3px;
+      text-decoration: none;
+      letter-spacing: 2px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 15px; }
+
+.prestaciones {
+  margin-top: 30px;
+  padding-top: 70px;
+  text-align: center;
+  justify-content: center; }
+  .prestaciones .titulo-seccion {
+    margin-bottom: 80px;
+    font-family: "Catamaran", sans-serif; }
+    .prestaciones .titulo-seccion h2 {
+      font-size: 55px;
+      font-weight: 300; }
+    .prestaciones .titulo-seccion h4 {
+      font-size: 17px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      color: #6c757d;
+      margin-top: 20px; }
+    .prestaciones .titulo-seccion hr {
+      max-width: 100px;
+      margin: 40px auto 0;
+      border-width: 1px;
+      border-color: rgba(34, 34, 34, 0.1); }
+  .prestaciones .prestaciones-container img {
+    margin-top: 10px;
+    max-height: 80%; }
+  .prestaciones .prestaciones-container .prestacion-container {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    max-width: 325px; }
+    .prestaciones .prestaciones-container .prestacion-container i {
+      font-size: 50px;
+      display: block;
+      margin-bottom: 15px;
+      background: linear-gradient(to left, #7b4397, #dc2430);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .prestaciones .prestaciones-container .prestacion-container h3 {
+      font-size: 30px;
+      font-family: "Catamaran", sans-serif;
+      font-weight: 200;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      display: block; }
+    .prestaciones .prestaciones-container .prestacion-container p {
+      font-size: 15px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      color: #6c757d; }
+
+.contacto {
+  text-align: center;
+  background: #fdc539;
+  height: 300px; }
+  .contacto h2 {
+    padding: 60px;
+    font-family: "Catamaran", sans-serif;
+    font-size: 45px;
+    font-weight: 300; }
+  .contacto .redes a {
+    margin: 0 20px; }
+    .contacto .redes a .fa-twitter {
+      color: #fff;
+      font-size: 40px;
+      text-align: center;
+      line-height: 80px;
+      width: 80px;
+      height: 80px;
+      border-radius: 100px;
+      transition: background 0.3s ease;
+      background: #1da1f2; }
+      .contacto .redes a .fa-twitter:hover {
+        background: #0d95e8; }
+    .contacto .redes a .fa-facebook-f {
+      color: #fff;
+      font-size: 40px;
+      text-align: center;
+      line-height: 80px;
+      width: 80px;
+      height: 80px;
+      border-radius: 100px;
+      transition: background 0.3s ease;
+      background: #3b5998; }
+      .contacto .redes a .fa-facebook-f:hover {
+        background: #344e86; }
+    .contacto .redes a .fa-youtube {
+      color: #fff;
+      font-size: 40px;
+      text-align: center;
+      line-height: 80px;
+      width: 80px;
+      height: 80px;
+      border-radius: 100px;
+      transition: background 0.3s ease;
+      background: #a19492; }
+      .contacto .redes a .fa-youtube:hover {
+        background: #d73925; }
+
+footer {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 25px; }
+
+  @media screen and (max-width: 799px) {
+    header {width: 100%; min-height: 550px;}    
+    header .navbar {background: #fff; color: #fdcc52; padding-bottom: 70px; height: 60px;}
+    header .navbar .navbar-brand {margin-left: 10px; display: inline-block;}
+    header .navbar-expand-lg {background: #fff; color: #fdcc52;}
+    header .bg-custom2 {color: #000;}
+    header .bg-custom2 a{color: #000;}
+    header .bg-custom2 .navbar-brand {color: #fdcc52;}
+    header nav i {margin-right: 60px; color: #fdcc52;}
+    header .navbar-collapse {background: #fff; transform: translateX(-7px); padding: 10px; color: rgba(0, 0, 0, 0.8);}
+    header .navbar-collapse ul li a {color: rgba(0, 0, 0, 0.8); padding: 10px;}
+    header .navbar-collapse ul li a:hover{color: #fdcc52;}
+
+    /* PORTADA */
+    header .portada-container {margin-bottom: 20px; padding: 20px;}
+    header .portada-container .contenido-portada h2{font-size: 30px;}
+    
+    /* ABOUT */
+    section .about {height: 400px;}
+    .about h1 {font-size: 50px;}
+    
+    /* PRESTACIONES */
+    .prestaciones {margin-top: 10px; padding-top: 90px; text-align: center; justify-content: center; }
+      .prestaciones .titulo-seccion {margin-bottom: 20px; font-family: "Catamaran", sans-serif; }
+        .prestaciones .titulo-seccion h2 {font-size: 35px; font-weight: 300; }
+        .prestaciones .titulo-seccion h4 {font-size: 15px; font-family: "Montserrat", sans-serif;  font-weight: 500; color: #6c757d; margin-top: 20px; }
+          .prestaciones .prestaciones-container .contenedor-img { max-width: 100%; max-height: 400px;}
+          .prestaciones .prestaciones-container img {
+            margin-top: 10px; max-height: 100%; }
+            .prestaciones .prestaciones-container .prestacion-container {margin: auto; max-width: 300px; }
+              .prestaciones .prestaciones-container .prestacion-container h3 {font-size: 25px;}
+              .prestaciones .prestaciones-container .prestacion-container p {font-size: 13px;}
+}
+
+@media screen and (max-width: 399px) {
+  header {width: 100%; min-height: 550px;}    
+  header .navbar {background: #fff; color: #fdcc52; padding-bottom: 70px; height: 60px;}
+  header .navbar .navbar-brand {margin-left: 10px; display: inline-block;}
+  header .navbar-expand-lg {background: #fff; color: #fdcc52;}
+  header .bg-custom2 {color: #000;}
+  header .bg-custom2 .navbar-brand {color: #fdcc52;}
+  header nav i {margin-right: 60px; color: #fdcc52;}
+  header .navbar-collapse {background: #fff; transform: translateX(-7px); padding: 10px; color: rgba(0, 0, 0, 0.8);}
+  header .navbar-collapse ul li a {color: rgba(0, 0, 0, 0.8); padding: 10px;}
+  header .navbar-collapse ul li a:hover{color: #fdcc52;}
+
+  /* PORTADA */
+  header .portada-container {margin-bottom: 20px; padding: 20px;}
+  header .portada-container .contenido-portada h2{font-size: 25px; text-align: center;}
+  .contenido-portada .btn {margin-left: 40px; margin-bottom: 10px;}
+  .kindle-container img {margin-top: 0px;}
+  
+  /* ABOUT */
+  section .about {height: 400px;}
+  .about h1 {font-size: 50px;}
+  
+  /* PRESTACIONES */
+  .prestaciones {margin-top: 10px; padding-top: 90px; text-align: center; justify-content: center; }
+    .prestaciones .titulo-seccion {margin-bottom: 20px; font-family: "Catamaran", sans-serif; }
+      .prestaciones .titulo-seccion h2 {font-size: 35px; font-weight: 300; }
+      .prestaciones .titulo-seccion h4 {font-size: 15px; font-family: "Montserrat", sans-serif;  font-weight: 500; color: #6c757d; margin-top: 20px; }
+        .prestaciones .prestaciones-container .contenedor-img { max-width: 100%; max-height: 400px;}
+        .prestaciones .prestaciones-container img {
+          margin-top: 10px; max-height: 100%; }
+          .prestaciones .prestaciones-container .prestacion-container {margin: auto; max-width: 300px; }
+            .prestaciones .prestaciones-container .prestacion-container h3 {font-size: 25px;}
+            .prestaciones .prestaciones-container .prestacion-container p {font-size: 13px;}
+  /* CONTACTO */
+  .contacto {height: 200px; }
+    .contacto h2 {font-size: 25px; font-weight: 300; padding: 20px; margin-bottom: 10px;}
+    .contacto .redes a {
+      margin: 0 10px; }
+      .contacto .redes a .fa-twitter {
+        padding: 5px;
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+        line-height: 25px;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        transition: background 0.3s ease;
+        background: #1da1f2; }
+        .contacto .redes a .fa-twitter:hover {
+          background: #0d95e8; }
+      .contacto .redes a .fa-facebook-f {
+        padding: 5px;
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+        line-height: 25px;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        transition: background 0.3s ease;
+        background: #3b5998; }
+        .contacto .redes a .fa-facebook-f:hover {
+          background: #344e86; }
+      .contacto .redes a .fa-youtube {
+        padding: 5px;
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+        line-height: 25px;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        transition: background 0.3s ease;
+        background: #a19492; }
+        .contacto .redes a .fa-youtube:hover {
+          background: #d73925; }
+  
+}
+/*# sourceMappingURL=estilos.css.map */
