@@ -62,10 +62,12 @@ header {
     width: 100%;
     height: 80%; }
     header .portada-container .contenido-portada {
-      margin-top: 150px;
+      margin-top: 200px;
       text-align: left;
-      max-width: 500px; }
+
+      }
       header .portada-container .contenido-portada h2 {
+        width: 1000px;
         font-family: "Catamaran", sans-serif;
         font-size: 50px;
         font-weight: 300;
@@ -240,117 +242,4 @@ footer {
   text-align: center;
   padding: 25px; }
 
-  @media screen and (max-width: 799px) {
-    header {width: 100%; min-height: 550px;}    
-    header .navbar {background: #fff; color: #fdcc52; padding-bottom: 70px; height: 60px;}
-    header .navbar .navbar-brand {margin-left: 10px; display: inline-block;}
-    header .navbar-expand-lg {background: #fff; color: #fdcc52;}
-    header .bg-custom2 {color: #000;}
-    header .bg-custom2 a{color: #000;}
-    header .bg-custom2 .navbar-brand {color: #fdcc52;}
-    header nav i {margin-right: 60px; color: #fdcc52;}
-    header .navbar-collapse {background: #fff; transform: translateX(-7px); padding: 10px; color: rgba(0, 0, 0, 0.8);}
-    header .navbar-collapse ul li a {color: rgba(0, 0, 0, 0.8); padding: 10px;}
-    header .navbar-collapse ul li a:hover{color: #fdcc52;}
-
-    /* PORTADA */
-    header .portada-container {margin-bottom: 20px; padding: 20px;}
-    header .portada-container .contenido-portada h2{font-size: 30px;}
-    
-    /* ABOUT */
-    section .about {height: 400px;}
-    .about h1 {font-size: 50px;}
-    
-    /* PRESTACIONES */
-    .prestaciones {margin-top: 10px; padding-top: 90px; text-align: center; justify-content: center; }
-      .prestaciones .titulo-seccion {margin-bottom: 20px; font-family: "Catamaran", sans-serif; }
-        .prestaciones .titulo-seccion h2 {font-size: 35px; font-weight: 300; }
-        .prestaciones .titulo-seccion h4 {font-size: 15px; font-family: "Montserrat", sans-serif;  font-weight: 500; color: #6c757d; margin-top: 20px; }
-          .prestaciones .prestaciones-container .contenedor-img { max-width: 100%; max-height: 400px;}
-          .prestaciones .prestaciones-container img {
-            margin-top: 10px; max-height: 100%; }
-            .prestaciones .prestaciones-container .prestacion-container {margin: auto; max-width: 300px; }
-              .prestaciones .prestaciones-container .prestacion-container h3 {font-size: 25px;}
-              .prestaciones .prestaciones-container .prestacion-container p {font-size: 13px;}
-}
-
-@media screen and (max-width: 399px) {
-  header {width: 100%; min-height: 550px;}    
-  header .navbar {background: #fff; color: #fdcc52; padding-bottom: 70px; height: 60px;}
-  header .navbar .navbar-brand {margin-left: 10px; display: inline-block;}
-  header .navbar-expand-lg {background: #fff; color: #fdcc52;}
-  header .bg-custom2 {color: #000;}
-  header .bg-custom2 .navbar-brand {color: #fdcc52;}
-  header nav i {margin-right: 60px; color: #fdcc52;}
-  header .navbar-collapse {background: #fff; transform: translateX(-7px); padding: 10px; color: rgba(0, 0, 0, 0.8);}
-  header .navbar-collapse ul li a {color: rgba(0, 0, 0, 0.8); padding: 10px;}
-  header .navbar-collapse ul li a:hover{color: #fdcc52;}
-
-  /* PORTADA */
-  header .portada-container {margin-bottom: 20px; padding: 20px;}
-  header .portada-container .contenido-portada h2{font-size: 25px; text-align: center;}
-  .contenido-portada .btn {margin-left: 40px; margin-bottom: 10px;}
-  .kindle-container img {margin-top: 0px;}
-  
-  /* ABOUT */
-  section .about {height: 400px;}
-  .about h1 {font-size: 50px;}
-  
-  /* PRESTACIONES */
-  .prestaciones {margin-top: 10px; padding-top: 90px; text-align: center; justify-content: center; }
-    .prestaciones .titulo-seccion {margin-bottom: 20px; font-family: "Catamaran", sans-serif; }
-      .prestaciones .titulo-seccion h2 {font-size: 35px; font-weight: 300; }
-      .prestaciones .titulo-seccion h4 {font-size: 15px; font-family: "Montserrat", sans-serif;  font-weight: 500; color: #6c757d; margin-top: 20px; }
-        .prestaciones .prestaciones-container .contenedor-img { max-width: 100%; max-height: 400px;}
-        .prestaciones .prestaciones-container img {
-          margin-top: 10px; max-height: 100%; }
-          .prestaciones .prestaciones-container .prestacion-container {margin: auto; max-width: 300px; }
-            .prestaciones .prestaciones-container .prestacion-container h3 {font-size: 25px;}
-            .prestaciones .prestaciones-container .prestacion-container p {font-size: 13px;}
-  /* CONTACTO */
-  .contacto {height: 200px; }
-    .contacto h2 {font-size: 25px; font-weight: 300; padding: 20px; margin-bottom: 10px;}
-    .contacto .redes a {
-      margin: 0 10px; }
-      .contacto .redes a .fa-twitter {
-        padding: 5px;
-        color: #fff;
-        font-size: 25px;
-        text-align: center;
-        line-height: 25px;
-        width: 40px;
-        height: 40px;
-        border-radius: 100px;
-        transition: background 0.3s ease;
-        background: #1da1f2; }
-        .contacto .redes a .fa-twitter:hover {
-          background: #0d95e8; }
-      .contacto .redes a .fa-facebook-f {
-        padding: 5px;
-        color: #fff;
-        font-size: 25px;
-        text-align: center;
-        line-height: 25px;
-        width: 40px;
-        height: 40px;
-        border-radius: 100px;
-        transition: background 0.3s ease;
-        background: #3b5998; }
-        .contacto .redes a .fa-facebook-f:hover {
-          background: #344e86; }
-      .contacto .redes a .fa-youtube {
-        padding: 5px;
-        color: #fff;
-        font-size: 25px;
-        text-align: center;
-        line-height: 25px;
-        width: 40px;
-        height: 40px;
-        border-radius: 100px;
-        transition: background 0.3s ease;
-        background: #a19492; }
-        .contacto .redes a .fa-youtube:hover {
-          background: #d73925; }
-  
-}
 /*# sourceMappingURL=estilos.css.map */
